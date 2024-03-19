@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbe3fb4b-fdda-437e-ae77-a625666f25c4">
+  <producedTypes>
+    <objectType typeId="c661da2d-aa31-4c37-9ec1-3592f5c705bb" valueTypeId="5f064e95-10f1-4fab-9ac1-30d1cedfc978"/>
+    <refType typeId="58e175fd-c3ab-42be-9856-f09516feccc6" valueTypeId="a375a994-a840-4e5b-9434-a283a77b79b6"/>
+    <selectionType typeId="43658c77-144d-4056-a6fc-aace691f4ec3" valueTypeId="eab33528-1270-49ec-bd20-0024dfb06283"/>
+    <listType typeId="bb1d824f-24da-49ef-8988-7c0627cf086f" valueTypeId="87ced26e-efa2-4236-a6d1-c4e0f7f0e0be"/>
+    <managerType typeId="a1de21e1-ad92-4ecb-9c7a-9084db4a4b57" valueTypeId="934615f4-a00d-472b-82d3-3f6a62abe696"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="723387c0-c073-4b23-a8c1-0681d5ecb4e3">
+    <name>organization_code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Organization code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e430afcb-b880-41d2-9d40-8509f2595c91">
+    <name>count</name>
+    <synonym>
+      <key>ru</key>
+      <value>Count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c877e49-5b0c-4477-b1aa-a7c331843266">
+    <name>stock_code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Stock code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

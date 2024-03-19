@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8139b751-a25d-47e4-967b-1640c7268ea9">
+  <name>Otus</name>
+  <synonym>
+    <key>ru</key>
+    <value>Otus</value>
+  </synonym>
+  <namespace>Otus</namespace>
+  <xdtoPackages xsi:type="core:ReferenceValue">
+    <value>XDTOPackage.Otus_xdto</value>
+  </xdtoPackages>
+  <descriptorFileName>ws1.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="8cc7248b-69ff-4ce5-9bc8-1b3bb94fdbdc">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>boolean</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Exchange</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="19e7ea20-deb1-4477-bbd1-4adae30fbfea">
+      <name>ФизЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Физ лицо</value>
+      </synonym>
+      <xdtoValueType>
+        <name>Физлицо</name>
+        <nsUri>Otus_xdto</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+</mdclass:WebService>

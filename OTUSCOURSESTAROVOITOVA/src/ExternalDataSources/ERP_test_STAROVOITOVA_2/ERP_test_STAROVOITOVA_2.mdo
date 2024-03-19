@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataSource xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26f3e96-0bb2-4206-ab49-6839d43987ed">
+  <producedTypes>
+    <managerType typeId="10e58f0c-a778-4115-9d0d-e1c9ad4d71c6" valueTypeId="c7d7286b-4a97-4e1d-92f0-907912bfae3c"/>
+    <tablesManagerType typeId="160bcae7-7502-4367-9d33-b68dfd7f61a2" valueTypeId="bba56563-6944-4ec2-babd-3f789da09903"/>
+    <cubesManagerType typeId="2f71fd74-678d-4b53-bca0-553aaf861f01" valueTypeId="91d45b80-449a-4048-af05-ccc23ac12fb5"/>
+  </producedTypes>
+  <name>ERP_test_STAROVOITOVA_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>ERP_test_STAROVOITOVA_2</value>
+  </synonym>
+  <tables>ExternalDataSource.ERP_test_STAROVOITOVA_2.Table.OTUS_COURSE_STAROVOITOVA_VID_public_nomenclatures</tables>
+</mdclass:ExternalDataSource>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63a68c79-cc0d-43d7-bf78-a4728a1801f5">
+  <producedTypes>
+    <refType typeId="8a96ec8c-82e4-409d-8ece-1155709492a5" valueTypeId="9922afe4-be51-4432-baa2-8d93c5ae1013"/>
+    <listType typeId="f39dd290-e8c7-4d57-98e9-eb6277dc331c" valueTypeId="895d9058-3e6f-43d2-8140-608e734eda2b"/>
+    <objectType typeId="9751c1a5-dd0b-49c6-a995-6ff237518e86" valueTypeId="39aef969-dfda-4415-8475-3bb7ecf505b5"/>
+    <managerType typeId="65740016-94d7-44d1-9119-ccd5cd3ac3fb" valueTypeId="61d17ace-5463-4400-a6ac-9fe8a8d001f1"/>
+    <recordManagerType typeId="df8d3f34-1dab-4613-9ca3-19502893b1a1" valueTypeId="27c9bf8e-c125-42d2-94f6-ef9609ee555e"/>
+    <recordSetType typeId="73329ab5-1f84-4d72-854d-8a083d215041" valueTypeId="24528283-c090-4c4b-8d20-7e7148b28828"/>
+    <recordType typeId="6fb656fc-9a4a-40fd-bab7-b466753b1a3a" valueTypeId="b3a09491-d8e0-401f-8fbd-59bf818743b1"/>
+    <recordKeyType typeId="4b1ec395-e456-44ee-9309-4bef72c7602d" valueTypeId="98b24685-6182-4824-913d-5fca395b204d"/>
+  </producedTypes>
+  <name>OTUS_COURSE_STAROVOITOVA_VID_public_nomenclatures</name>
+  <parentDataSource>ExternalDataSource.ERP_test_STAROVOITOVA_2</parentDataSource>
+  <nameInDataSource>OTUS_COURSE_STAROVOITOVA_VID.public.nomenclatures</nameInDataSource>
+  <keyFields>ExternalDataSource.ERP_test_STAROVOITOVA_2.Table.OTUS_COURSE_STAROVOITOVA_VID_public_nomenclatures.Field.code</keyFields>
+  <unfilledParentValue xsi:type="core:UndefinedValue"/>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExternalDataSource.ERP_test_STAROVOITOVA_2.Table.OTUS_COURSE_STAROVOITOVA_VID_public_nomenclatures.Field.code</inputByString>
+  <editType>InDialog</editType>
+  <tableFields uuid="23173608-2ea2-49b4-be87-651e3d0df296">
+    <name>code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>code</nameInDataSource>
+  </tableFields>
+  <tableFields uuid="902c16ca-81c7-43b7-af5c-a50c43433abb">
+    <name>name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>name</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="bf5b9d28-fdac-464c-aa25-3aef981b8208">
+    <name>organization_code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Organization code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>organization_code</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="82689333-00d3-49dd-a8d2-e0593f4345fc">
+    <name>count</name>
+    <synonym>
+      <key>ru</key>
+      <value>Count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <nameInDataSource>count</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+  <tableFields uuid="ba372067-da5d-4afc-b12a-9a03c367cfed">
+    <name>stock_code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Stock code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <nameInDataSource>stock_code</nameInDataSource>
+    <allowNull>true</allowNull>
+  </tableFields>
+</mdclass:Table>

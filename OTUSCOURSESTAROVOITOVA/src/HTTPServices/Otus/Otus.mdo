@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="778d918c-0ed2-4f17-a2e2-911110ad8bef">
+  <name>Otus</name>
+  <synonym>
+    <key>ru</key>
+    <value>Otus</value>
+  </synonym>
+  <rootURL>otus</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="1cae8b5c-7272-4dd4-8e34-9f4745235d0c">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Exchange</value>
+    </synonym>
+    <comment>/{surname}/{name}/{patronymic}</comment>
+    <template>/request/*</template>
+    <methods uuid="14a4c716-1e05-41f8-aa91-e494740683a1">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ExchangeAnswer</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

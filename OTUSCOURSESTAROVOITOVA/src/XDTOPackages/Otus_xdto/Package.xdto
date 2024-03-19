@@ -1,0 +1,7 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="Otus_xdto">
+	<objectType name="Физлицо">
+		<property name="Фамилия" type="xs:string" upperBound="1"/>
+		<property name="Имя" type="xs:string" upperBound="1"/>
+		<property name="Отчество" type="xs:string" upperBound="1"/>
+	</objectType>
+</package>
